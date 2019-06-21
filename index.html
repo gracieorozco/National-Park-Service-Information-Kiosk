@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API Practice</title>
+      <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <form id = "frm1" >
+        State Name: <input type="text" name="state"><br>
+        <input type="submit" value="Submit">
+      </form>
+      <script>
+          var form = document.getElementById("frm1");
+          form.onsubmit = function(e) {
+            e.preventDefault();
+            console.log(form.state.value);
+            var request = new XMLHttpRequest()
+
+          request.open('GET', 'https://developer.nps.gov/api/v1/parks?stateCODE=' + form.state.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
+            request.onload = function() {
+              var data = JSON.parse(this.response)
+
+              // document.getElementById("title").innerHTML = data.data[0].states
+              console.log(data.data[0].parkCode)
+              }
+              request.send()
+          }
+
+
+
+        </script>
+      <h1 id=title></h1>
+    </div>
+  </body>
+</html>
