@@ -5,7 +5,7 @@
       <script src="scripts.js"></script>
   </head>
   <body>
-    <div id="root">
+    <div id="body">
       <form id = "frm1" >
         State Name: <input type="text" name="state"><br>
         <input type="submit" value="Submit">
@@ -20,10 +20,19 @@
           request.open('GET', 'https://developer.nps.gov/api/v1/parks?stateCODE=' + form.state.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
             request.onload = function() {
               var data = JSON.parse(this.response)
+              for (var i = 0; i < data.total; i++) {
+                console.log(data.data[i].parkCode)
 
-              // document.getElementById("title").innerHTML = data.data[0].states
-              console.log(data.data[0].parkCode)
+                const div = document.createElement('div')
+                div.setAttribute('class', 'result')
+
+                const p = document.createElement('p')
+                p.textContent = data.data[i].parkCode
+
+                body.appendChild(div)
+                div.appendChild(p)
               }
+            }
               request.send()
           }
 
