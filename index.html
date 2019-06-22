@@ -1,48 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html style="height:100%;">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts.js" defer></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>News</title>
+    <title>Index</title>
     <script src="scripts.js" defer></script>
   </head>
-  <body>
+  <body style="color:black;background-image:url('https://static1.squarespace.com/static/5346a846e4b0101b157468cf/t/5bcf7c3b419202a9b37f36f8/1540324422990/DSC00313.jpg');background-repeat:no-repeat;height:100%;background-size:cover;">
     <nav class="navbar navbar-expand-lg navbar-dark-lg bg-dark shadow-sm navbar-fixed-top">
       <a class="navbar-brand text-white" href="index.html">National Park Service</a>
-      <button class="navbar-toggler hidden-sm-up text-white" type="button" data-toggle="collapse" data-target="#navbarNav">
-    &#9776;
-  </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-     <ul class="navbar-nav">
-       <li class="nav-item active">
-         <a class="nav-link text-white" href="index.html">Home</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link text-white" href="alerts.html">Alerts</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link text-white" href="events.html">Events</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link text-white" href="News.html">News</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link text-white" href="parks.html">Parks</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link text-white" href="places.html">Places</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link text-white" href="visitor_center.html">Vistor Center</a>
-       </li>
-       </ul>
-   </div>
 </nav>
-    <div id="body">
-      <h1>Home</h1>
-      <p>Click the links above</p>
+    <div id="body" class="justify-content-center">
+      <div class="card " style="width:60%;margin:0 auto;float:none;align:middle;margin-top:15%;text-align:center;">
+        <div class="card-body">
+          <h1 class="display-5" style="font-size:36px;">National Parks Service Information Kiosk</h1>
+          <p class="lead" style="font-size:20px;">Click on one of the buttons to begin your search</p>
+          <div>
+            <span><input class="btn btn-dark mr-sm-2" type="submit" style="margin-bottom:10px;width:30%;" onClick=location.href="alerts.html" value="Alerts"></input></span>
+            <span><input class="btn btn-dark mr-sm-2" type="submit" style="margin-bottom:10px;width:30%;" onClick=location.href="events.html" value="Events"></input></span>
+            <span><input class="btn btn-dark mr-sm-2" type="submit" style="margin-bottom:10px;width:30%;" onClick=location.href="parks.html" value="Parks"></input></span>
+            <span><input class="btn btn-dark mr-sm-2" type="submit" style="margin-bottom:10px;width:30%;" onClick=location.href="news.html" value="News"></input></span>
+            <span><input class="btn btn-dark mr-sm-2" type="submit" style="margin-bottom:10px;width:30%;" onClick=location.href="places.html" value="Places"></input></span>
+            <span><input class="btn btn-dark mr-sm-2" type="submit" style="margin-bottom:10px;width:30%;" onClick=location.href="visitor_center.html" value="Visitor Centers"></input></span>
+        </div>
+      </div>
     </div>
+
+  </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

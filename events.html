@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html style>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts.js" defer></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Events</title>
     <script src="scripts.js" defer></script>
+    <style>
+      h1{
+        padding-top: 10px;
+      }
+    </style>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark-lg bg-dark shadow-sm navbar-fixed-top">
+  <body style="color:black;background-color:#1C3629;background-image:url('https://www.jetsetter.com/uploads/sites/7/2018/04/kyYx4dem-1380x1035.jpeg');background-repeat:no-repeat;height:100%;background-size:cover;">
+  <nav class="navbar navbar-expand-lg navbar-dark-lg bg-dark shadow-sm navbar-fixed-top">
       <a class="navbar-brand text-white" href="index.html">National Park Service</a>
       <button class="navbar-toggler hidden-sm-up text-white" type="button" data-toggle="collapse" data-target="#navbarNav">
     &#9776;
   </button>
     <div class="collapse navbar-collapse" id="navbarNav">
      <ul class="navbar-nav">
-       <li class="nav-item active">
-         <a class="nav-link text-white" href="index.html">Home</a>
-       </li>
        <li class="nav-item">
          <a class="nav-link text-white" href="alerts.html">Alerts</a>
        </li>
@@ -34,16 +36,16 @@
          <a class="nav-link text-white" href="places.html">Places</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link text-white" href="visitor_center.html">Vistor Center</a>
+         <a class="nav-link text-white" href="visitor_center.html">Visitor Center</a>
        </li>
        </ul>
    </div>
 </nav>
-    <div id="body">
-      <h1>Events Near Me</h1>
-      <form class="form-inline"id = "stateForm">
-        <input class ="form-control mr-sm-2" type="text" name="state" placeholder="Enter 2-letter state code"><br>
-        <input id="submit" class="btn btn-primary" type="submit" onClick="eventsRequest()" value="Submit">
+    <div id="body" style="height=100%">
+      <h1 style="text-align:center;text-size:50px;margin-top:1%;">Events Near Me</h1>
+      <form class="form-inline justify-content-center" id="stateForm">
+        <input class="form-control mr-sm-2" type="text" name="state" placeholder="Enter state code" style="width: 20%"><br>
+        <input id="submit" class="btn btn-dark" type="submit" onClick="eventsRequest()" value="Submit">
       </form>
       <br>
     </div>

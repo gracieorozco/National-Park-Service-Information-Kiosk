@@ -1,5 +1,10 @@
-function alertRequest() {
-    var form = document.getElementById("stateForm");
+function alertsRequest() {
+    var resultsExist = document.getElementById("result")
+    while (resultsExist) {
+      document.getElementById("result").remove();
+      resultsExist = document.getElementById("result")
+    }
+    var form = document.getElementById("stateForm")
     form.onsubmit = function(e) {
         e.preventDefault();
         var request = new XMLHttpRequest()
@@ -40,6 +45,11 @@ function alertRequest() {
 }
 
 function eventsRequest() {
+    var resultsExist = document.getElementById("result")
+    while (resultsExist) {
+      document.getElementById("result").remove();
+      resultsExist = document.getElementById("result")
+    }
     var form = document.getElementById("stateForm");
     form.onsubmit = function(e) {
         e.preventDefault();
@@ -96,6 +106,11 @@ function eventsRequest() {
 }
 
 function newsRequest() {
+    var resultsExist = document.getElementById("result")
+    while (resultsExist) {
+      document.getElementById("result").remove();
+      resultsExist = document.getElementById("result")
+    }
     var form = document.getElementById("stateForm");
     form.onsubmit = function(e) {
         e.preventDefault();
@@ -143,6 +158,11 @@ function newsRequest() {
 }
 
 function parksRequest() {
+    var resultsExist = document.getElementById("result")
+    while (resultsExist) {
+      document.getElementById("result").remove();
+      resultsExist = document.getElementById("result")
+    }
     var form = document.getElementById("stateForm");
     form.onsubmit = function(e) {
         e.preventDefault();
@@ -194,6 +214,11 @@ function parksRequest() {
 }
 
 function placesRequest() {
+    var resultsExist = document.getElementById("result")
+    while (resultsExist) {
+      document.getElementById("result").remove();
+      resultsExist = document.getElementById("result")
+    }
     var form = document.getElementById("stateForm");
     form.onsubmit = function(e) {
         e.preventDefault();
@@ -235,7 +260,12 @@ function placesRequest() {
     }
 }
 
-function visitorCenterRequest() {
+function visitorCentersRequest() {
+    var resultsExist = document.getElementById("result")
+    while (resultsExist) {
+      document.getElementById("result").remove();
+      resultsExist = document.getElementById("result")
+    }
     var form = document.getElementById("stateForm");
     form.onsubmit = function(e) {
         e.preventDefault();
