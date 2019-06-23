@@ -6,13 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Alerts</title>
     <script src="scripts.js" defer></script>
-    <style>
-      h1{
-        padding-top: 10px;
-      }
-    </style>
   </head>
-  <body style="color:black;background-color:#1C3629;background-image:url('https://www.audubon.org/sites/default/files/styles/hero_mobile/public/olympic_0.jpg?itok=ilfx5kgb');background-repeat:no-repeat;height:100%;background-size:cover;;">
+  <body style="color:black;background-color:#1C3629;background-image:url('https://www.audubon.org/sites/default/files/styles/hero_mobile/public/olympic_0.jpg?itok=ilfx5kgb');background-repeat:no-repeat;height:100%;background-size:cover;">
   <nav class="navbar navbar-expand-lg navbar-dark-lg bg-dark shadow-sm navbar-fixed-top">
       <a class="navbar-brand text-white" href="index.html">National Park Service</a>
       <button class="navbar-toggler hidden-sm-up text-white" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -20,17 +15,29 @@
   </button>
     <div class="collapse navbar-collapse" id="navbarNav">
      <ul class="navbar-nav">
-       <li class="nav-item">
+        <li class="nav-item">
          <a class="nav-link text-white" href="alerts.html">Alerts</a>
        </li>
        <li class="nav-item">
+         <a class="nav-link text-white" href="articles.html">Articles</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link text-white" href="campgrounds.html">Campgrounds</a>
+       </li>
+       <li class="nav-item">
          <a class="nav-link text-white" href="events.html">Events</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link text-white" href="lesson_plans.html">Lesson Plans</a>
        </li>
        <li class="nav-item">
          <a class="nav-link text-white" href="News.html">News</a>
        </li>
        <li class="nav-item">
          <a class="nav-link text-white" href="parks.html">Parks</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link text-white" href="people.html">People</a>
        </li>
        <li class="nav-item">
          <a class="nav-link text-white" href="places.html">Places</a>
@@ -43,8 +50,9 @@
 </nav>
     <div id="body" style="height=100%">
       <h1 style="text-align:center;text-size:50px;margin-top:1%;">Alerts</h1>
-      <form class="form-inline justify-content-center" id="stateForm">
-        <input class="form-control mr-sm-2" type="text" name="state" placeholder="Enter state code" style="width: 20%"><br>
+      <form style="text-align:center" id="stateForm">
+        <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search" style="width:20%;margin-left:40%;"><br>
+        <input class="form-control mr-sm-2" type="text" name="state" placeholder="State code" style="width:20%;margin-left:40%;"><br>
         <input id="submit" class="btn btn-dark" type="submit" onClick="alertsRequest()" value="Submit">
       </form>
       <br>
