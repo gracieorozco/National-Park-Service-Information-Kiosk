@@ -654,147 +654,147 @@ function visitorCentersRequest() {
 }
 
 function searchParksRequest() {
-  var accordion = document.createElement('div')
-  accordion.setAttribute('class', 'accordion')
-  accordion.setAttribute('id', 'resultAcc')
-  accordion.setAttribute('style', 'width:80%;margin:0 auto;float:none;align:middle;padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:30px')
+    var accordion = document.createElement('div')
+    accordion.setAttribute('class', 'accordion')
+    accordion.setAttribute('id', 'resultAcc')
+    accordion.setAttribute('style', 'width:80%;margin:0 auto;float:none;align:middle;padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:30px')
 
-  var card = document.createElement('div')
-  card.setAttribute('class', 'card')
+    var card = document.createElement('div')
+    card.setAttribute('class', 'card')
 
-  var headerOne = document.createElement('div')
-  headerOne.setAttribute('class', 'card-header')
-  headerOne.setAttribute('id', 'head1')
+    var headerOne = document.createElement('div')
+    headerOne.setAttribute('class', 'card-header')
+    headerOne.setAttribute('id', 'head1')
 
-  var textOne = document.createElement('h5')
-  textOne.setAttribute('class', 'mb-0')
+    var textOne = document.createElement('h5')
+    textOne.setAttribute('class', 'mb-0')
 
-  var buttonOne = document.createElement('button')
-  buttonOne.setAttribute('class', 'btn btn-link')
-  buttonOne.setAttribute('type', 'button')
-  buttonOne.setAttribute('data-toggle', 'collapse')
-  buttonOne.setAttribute('data-target', '#c1')
-  buttonOne.setAttribute('aria-expanded', 'true')
-  buttonOne.setAttribute('aria-controls', 'c1')
-  buttonOne.textContent = "Parks"
+    var buttonOne = document.createElement('button')
+    buttonOne.setAttribute('class', 'btn btn-link')
+    buttonOne.setAttribute('type', 'button')
+    buttonOne.setAttribute('data-toggle', 'collapse')
+    buttonOne.setAttribute('data-target', '#c1')
+    buttonOne.setAttribute('aria-expanded', 'true')
+    buttonOne.setAttribute('aria-controls', 'c1')
+    buttonOne.textContent = "Parks"
 
-  var c1 = document.createElement('div')
-  c1.setAttribute('class', 'collapse')
-  c1.setAttribute('id', 'c1')
-  c1.setAttribute('aria-labelledby', 'head1')
-  c1.setAttribute('data-parent', '#resultAcc')
+    var c1 = document.createElement('div')
+    c1.setAttribute('class', 'collapse')
+    c1.setAttribute('id', 'c1')
+    c1.setAttribute('aria-labelledby', 'head1')
+    c1.setAttribute('data-parent', '#resultAcc')
 
-  var cd1 = document.createElement('div')
-  cd1.setAttribute('class', 'card-body')
+    var cd1 = document.createElement('div')
+    cd1.setAttribute('class', 'card-body')
 
-  textOne.appendChild(buttonOne)
-  headerOne.appendChild(textOne)
-  card.appendChild(headerOne)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textOne.appendChild(buttonOne)
+    headerOne.appendChild(textOne)
+    card.appendChild(headerOne)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c1.appendChild(cd1)
-  card.appendChild(c1)
+    c1.appendChild(cd1)
+    card.appendChild(c1)
 
-  var card2 = document.createElement('div')
-  card2.setAttribute('class', 'card')
+    var card2 = document.createElement('div')
+    card2.setAttribute('class', 'card')
 
-  var headerTwo = document.createElement('div')
-  headerTwo.setAttribute('class', 'card-header')
-  headerTwo.setAttribute('id', 'head2')
+    var headerTwo = document.createElement('div')
+    headerTwo.setAttribute('class', 'card-header')
+    headerTwo.setAttribute('id', 'head2')
 
-  var textTwo = document.createElement('h5')
-  textTwo.setAttribute('class', 'mb-0')
+    var textTwo = document.createElement('h5')
+    textTwo.setAttribute('class', 'mb-0')
 
-  var buttonTwo = document.createElement('button')
-  buttonTwo.setAttribute('class', 'btn btn-link')
-  buttonTwo.setAttribute('type', 'button')
-  buttonTwo.setAttribute('data-toggle', 'collapse')
-  buttonTwo.setAttribute('data-target', '#c2')
-  buttonTwo.setAttribute('aria-expanded', 'true')
-  buttonTwo.setAttribute('aria-controls', 'c2')
-  buttonTwo.textContent = "Visitor Centers"
+    var buttonTwo = document.createElement('button')
+    buttonTwo.setAttribute('class', 'btn btn-link')
+    buttonTwo.setAttribute('type', 'button')
+    buttonTwo.setAttribute('data-toggle', 'collapse')
+    buttonTwo.setAttribute('data-target', '#c2')
+    buttonTwo.setAttribute('aria-expanded', 'true')
+    buttonTwo.setAttribute('aria-controls', 'c2')
+    buttonTwo.textContent = "Visitor Centers"
 
-  var c2 = document.createElement('div')
-  c2.setAttribute('class', 'collapse')
-  c2.setAttribute('id', 'c2')
-  c2.setAttribute('aria-labelledby', 'head2')
-  c2.setAttribute('data-parent', '#resultAcc')
+    var c2 = document.createElement('div')
+    c2.setAttribute('class', 'collapse')
+    c2.setAttribute('id', 'c2')
+    c2.setAttribute('aria-labelledby', 'head2')
+    c2.setAttribute('data-parent', '#resultAcc')
 
-  var cd2 = document.createElement('div')
-  cd2.setAttribute('class', 'card-body')
+    var cd2 = document.createElement('div')
+    cd2.setAttribute('class', 'card-body')
 
-  textTwo.appendChild(buttonTwo)
-  headerTwo.appendChild(textTwo)
-  card.appendChild(headerTwo)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textTwo.appendChild(buttonTwo)
+    headerTwo.appendChild(textTwo)
+    card.appendChild(headerTwo)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c2.appendChild(cd2)
-  card.appendChild(c2)
+    c2.appendChild(cd2)
+    card.appendChild(c2)
 
-  var card3 = document.createElement('div')
-  card3.setAttribute('class', 'card')
+    var card3 = document.createElement('div')
+    card3.setAttribute('class', 'card')
 
-  var headerThree = document.createElement('div')
-  headerThree.setAttribute('class', 'card-header')
-  headerThree.setAttribute('id', 'head3')
+    var headerThree = document.createElement('div')
+    headerThree.setAttribute('class', 'card-header')
+    headerThree.setAttribute('id', 'head3')
 
-  var textThree = document.createElement('h5')
-  textThree.setAttribute('class', 'mb-0')
+    var textThree = document.createElement('h5')
+    textThree.setAttribute('class', 'mb-0')
 
-  var buttonThree = document.createElement('button')
-  buttonThree.setAttribute('class', 'btn btn-link')
-  buttonThree.setAttribute('type', 'button')
-  buttonThree.setAttribute('data-toggle', 'collapse')
-  buttonThree.setAttribute('data-target', '#c3')
-  buttonThree.setAttribute('aria-expanded', 'true')
-  buttonThree.setAttribute('aria-controls', 'c3')
-  buttonThree.textContent = "Campgrounds"
+    var buttonThree = document.createElement('button')
+    buttonThree.setAttribute('class', 'btn btn-link')
+    buttonThree.setAttribute('type', 'button')
+    buttonThree.setAttribute('data-toggle', 'collapse')
+    buttonThree.setAttribute('data-target', '#c3')
+    buttonThree.setAttribute('aria-expanded', 'true')
+    buttonThree.setAttribute('aria-controls', 'c3')
+    buttonThree.textContent = "Campgrounds"
 
-  var c3 = document.createElement('div')
-  c3.setAttribute('class', 'collapse')
-  c3.setAttribute('id', 'c3')
-  c3.setAttribute('aria-labelledby', 'head3')
-  c3.setAttribute('data-parent', '#resultAcc')
+    var c3 = document.createElement('div')
+    c3.setAttribute('class', 'collapse')
+    c3.setAttribute('id', 'c3')
+    c3.setAttribute('aria-labelledby', 'head3')
+    c3.setAttribute('data-parent', '#resultAcc')
 
-  var cd3 = document.createElement('div')
-  cd3.setAttribute('class', 'card-body')
+    var cd3 = document.createElement('div')
+    cd3.setAttribute('class', 'card-body')
 
-  textThree.appendChild(buttonThree)
-  headerThree.appendChild(textThree)
-  card.appendChild(headerThree)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textThree.appendChild(buttonThree)
+    headerThree.appendChild(textThree)
+    card.appendChild(headerThree)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c3.appendChild(cd3)
-  card.appendChild(c3)
+    c3.appendChild(cd3)
+    card.appendChild(c3)
 
-  var form = document.getElementById("stateForm")
-  var request = new XMLHttpRequest()
-  request.open('GET', 'https://developer.nps.gov/api/v1/parks?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
-  request.onload = function(e) {
-    e.preventDefault();
-      var data = JSON.parse(this.response)
-      var total = data.total
-      if (total >= 50) {
-          total = 50
-      }
-      if (total > 0) {
-          var i = 0
-          for (i; i < total-1; i++) {
-              var div = document.createElement('div')
-
-              cd1.innerHTML += "<h1>" + data.data[i].name + "</h1>"
-              cd1.innerHTML += "<p>" + data.data[i].description +"</p>"
-              cd1.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a><hr>"
-            }
-              cd1.innerHTML += "<h1>" + data.data[i].name + "</h1>"
-              cd1.innerHTML += "<p>" + data.data[i].description +"</p>"
-              cd1.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a>"
-          }
+    var form = document.getElementById("stateForm")
+    var request = new XMLHttpRequest()
+    request.open('GET', 'https://developer.nps.gov/api/v1/parks?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
+    request.onload = function(e) {
+        e.preventDefault();
+        var data = JSON.parse(this.response)
+        var total = data.total
+        if (total >= 50) {
+            total = 50
         }
-        request.send()
+        if (total > 0) {
+            var i = 0
+            for (i; i < total - 1; i++) {
+                var div = document.createElement('div')
+
+                cd1.innerHTML += "<h1>" + data.data[i].name + "</h1>"
+                cd1.innerHTML += "<p>" + data.data[i].description + "</p>"
+                cd1.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a><hr>"
+            }
+            cd1.innerHTML += "<h1>" + data.data[i].name + "</h1>"
+            cd1.innerHTML += "<p>" + data.data[i].description + "</p>"
+            cd1.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a>"
+        }
+    }
+    request.send()
     request = new XMLHttpRequest()
     request.open('GET', 'https://developer.nps.gov/api/v1/visitorcenters?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
     request.onload = function() {
@@ -805,22 +805,22 @@ function searchParksRequest() {
         }
         if (total > 0) {
             var i = 0
-            for (i; i < total-1; i++) {
+            for (i; i < total - 1; i++) {
                 var div = document.createElement('div')
 
                 cd2.innerHTML += "<h1>" + data.data[i].name + "</h1>"
-                cd2.innerHTML += "<p>" + data.data[i].description +"</p>"
-                cd2.innerHTML += "<p>" + data.data[i].directionsInfo +"</p>"
+                cd2.innerHTML += "<p>" + data.data[i].description + "</p>"
+                cd2.innerHTML += "<p>" + data.data[i].directionsInfo + "</p>"
                 cd2.innerHTML += "<a href=" + data.data[i].url + "> Click here to visit the website.</a><p></p>"
                 cd2.innerHTML += "<a href=" + data.data[i].directionsUrl + "> Click here for directions.</a><hr>"
-              }
-                cd2.innerHTML += "<h1>" + data.data[i].name + "</h1>"
-                cd2.innerHTML += "<p>" + data.data[i].description +"</p>"
-                cd2.innerHTML += "<p>" + data.data[i].directionsInfo +"</p>"
-                cd2.innerHTML += "<a href=" + data.data[i].url + "> Click here to visit the website.</a><p></p>"
-                cd2.innerHTML += "<a href=" + data.data[i].directionsUrl + "> Click here for directions.</a>"
             }
-          }
+            cd2.innerHTML += "<h1>" + data.data[i].name + "</h1>"
+            cd2.innerHTML += "<p>" + data.data[i].description + "</p>"
+            cd2.innerHTML += "<p>" + data.data[i].directionsInfo + "</p>"
+            cd2.innerHTML += "<a href=" + data.data[i].url + "> Click here to visit the website.</a><p></p>"
+            cd2.innerHTML += "<a href=" + data.data[i].directionsUrl + "> Click here for directions.</a>"
+        }
+    }
     request.send()
     request = new XMLHttpRequest()
     request.open('GET', 'https://developer.nps.gov/api/v1/campgrounds?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
@@ -832,201 +832,201 @@ function searchParksRequest() {
         }
         if (total > 0) {
             var i = 0
-            for (i; i < total-1; i++) {
+            for (i; i < total - 1; i++) {
                 var div = document.createElement('div')
 
                 cd3.innerHTML += "<h1>" + data.data[i].name + "</h1>"
-                cd3.innerHTML += "<p>" + data.data[i].description +"</p>"
+                cd3.innerHTML += "<p>" + data.data[i].description + "</p>"
                 cd3.innerHTML += "<a href=" + data.data[i].regulationsoverview + "> Click here to view regulations.</a><p></p>"
                 cd3.innerHTML += "<a href=" + data.data[i].directionsUrl + "> Click here for directions.</a><hr>"
-              }
-                cd3.innerHTML += "<h1>" + data.data[i].name + "</h1>"
-                cd3.innerHTML += "<p>" + data.data[i].description +"</p>"
-                cd3.innerHTML += "<a href=" + data.data[i].regulationsoverview + "> Click here to view regulations.</a><p></p>"
-                cd3.innerHTML += "<a href=" + data.data[i].directionsUrl + "> Click here for directions.</a>"
-
             }
-          }
+            cd3.innerHTML += "<h1>" + data.data[i].name + "</h1>"
+            cd3.innerHTML += "<p>" + data.data[i].description + "</p>"
+            cd3.innerHTML += "<a href=" + data.data[i].regulationsoverview + "> Click here to view regulations.</a><p></p>"
+            cd3.innerHTML += "<a href=" + data.data[i].directionsUrl + "> Click here for directions.</a>"
+
+        }
+    }
     request.send()
 }
 
 function findInfoRequest() {
-  var accordion = document.createElement('div')
-  accordion.setAttribute('class', 'accordion')
-  accordion.setAttribute('id', 'resultAcc')
-  accordion.setAttribute('style', 'width:80%;margin:0 auto;float:none;align:middle;padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:30px')
+    var accordion = document.createElement('div')
+    accordion.setAttribute('class', 'accordion')
+    accordion.setAttribute('id', 'resultAcc')
+    accordion.setAttribute('style', 'width:80%;margin:0 auto;float:none;align:middle;padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:30px')
 
-  var card = document.createElement('div')
-  card.setAttribute('class', 'card')
+    var card = document.createElement('div')
+    card.setAttribute('class', 'card')
 
-  var headerOne = document.createElement('div')
-  headerOne.setAttribute('class', 'card-header')
-  headerOne.setAttribute('id', 'head1')
+    var headerOne = document.createElement('div')
+    headerOne.setAttribute('class', 'card-header')
+    headerOne.setAttribute('id', 'head1')
 
-  var textOne = document.createElement('h5')
-  textOne.setAttribute('class', 'mb-0')
+    var textOne = document.createElement('h5')
+    textOne.setAttribute('class', 'mb-0')
 
-  var buttonOne = document.createElement('button')
-  buttonOne.setAttribute('class', 'btn btn-link')
-  buttonOne.setAttribute('type', 'button')
-  buttonOne.setAttribute('data-toggle', 'collapse')
-  buttonOne.setAttribute('data-target', '#c1')
-  buttonOne.setAttribute('aria-expanded', 'true')
-  buttonOne.setAttribute('aria-controls', 'c1')
-  buttonOne.textContent = "Alerts"
+    var buttonOne = document.createElement('button')
+    buttonOne.setAttribute('class', 'btn btn-link')
+    buttonOne.setAttribute('type', 'button')
+    buttonOne.setAttribute('data-toggle', 'collapse')
+    buttonOne.setAttribute('data-target', '#c1')
+    buttonOne.setAttribute('aria-expanded', 'true')
+    buttonOne.setAttribute('aria-controls', 'c1')
+    buttonOne.textContent = "Alerts"
 
-  var c1 = document.createElement('div')
-  c1.setAttribute('class', 'collapse')
-  c1.setAttribute('id', 'c1')
-  c1.setAttribute('aria-labelledby', 'head1')
-  c1.setAttribute('data-parent', '#resultAcc')
+    var c1 = document.createElement('div')
+    c1.setAttribute('class', 'collapse')
+    c1.setAttribute('id', 'c1')
+    c1.setAttribute('aria-labelledby', 'head1')
+    c1.setAttribute('data-parent', '#resultAcc')
 
-  var cd1 = document.createElement('div')
-  cd1.setAttribute('class', 'card-body')
+    var cd1 = document.createElement('div')
+    cd1.setAttribute('class', 'card-body')
 
-  textOne.appendChild(buttonOne)
-  headerOne.appendChild(textOne)
-  card.appendChild(headerOne)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textOne.appendChild(buttonOne)
+    headerOne.appendChild(textOne)
+    card.appendChild(headerOne)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c1.appendChild(cd1)
-  card.appendChild(c1)
+    c1.appendChild(cd1)
+    card.appendChild(c1)
 
-  var card2 = document.createElement('div')
-  card2.setAttribute('class', 'card')
+    var card2 = document.createElement('div')
+    card2.setAttribute('class', 'card')
 
-  var headerTwo = document.createElement('div')
-  headerTwo.setAttribute('class', 'card-header')
-  headerTwo.setAttribute('id', 'head2')
+    var headerTwo = document.createElement('div')
+    headerTwo.setAttribute('class', 'card-header')
+    headerTwo.setAttribute('id', 'head2')
 
-  var textTwo = document.createElement('h5')
-  textTwo.setAttribute('class', 'mb-0')
+    var textTwo = document.createElement('h5')
+    textTwo.setAttribute('class', 'mb-0')
 
-  var buttonTwo = document.createElement('button')
-  buttonTwo.setAttribute('class', 'btn btn-link')
-  buttonTwo.setAttribute('type', 'button')
-  buttonTwo.setAttribute('data-toggle', 'collapse')
-  buttonTwo.setAttribute('data-target', '#c2')
-  buttonTwo.setAttribute('aria-expanded', 'true')
-  buttonTwo.setAttribute('aria-controls', 'c2')
-  buttonTwo.textContent = "Articles"
+    var buttonTwo = document.createElement('button')
+    buttonTwo.setAttribute('class', 'btn btn-link')
+    buttonTwo.setAttribute('type', 'button')
+    buttonTwo.setAttribute('data-toggle', 'collapse')
+    buttonTwo.setAttribute('data-target', '#c2')
+    buttonTwo.setAttribute('aria-expanded', 'true')
+    buttonTwo.setAttribute('aria-controls', 'c2')
+    buttonTwo.textContent = "Articles"
 
-  var c2 = document.createElement('div')
-  c2.setAttribute('class', 'collapse')
-  c2.setAttribute('id', 'c2')
-  c2.setAttribute('aria-labelledby', 'head2')
-  c2.setAttribute('data-parent', '#resultAcc')
+    var c2 = document.createElement('div')
+    c2.setAttribute('class', 'collapse')
+    c2.setAttribute('id', 'c2')
+    c2.setAttribute('aria-labelledby', 'head2')
+    c2.setAttribute('data-parent', '#resultAcc')
 
-  var cd2 = document.createElement('div')
-  cd2.setAttribute('class', 'card-body')
+    var cd2 = document.createElement('div')
+    cd2.setAttribute('class', 'card-body')
 
-  textTwo.appendChild(buttonTwo)
-  headerTwo.appendChild(textTwo)
-  card.appendChild(headerTwo)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textTwo.appendChild(buttonTwo)
+    headerTwo.appendChild(textTwo)
+    card.appendChild(headerTwo)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c2.appendChild(cd2)
-  card.appendChild(c2)
+    c2.appendChild(cd2)
+    card.appendChild(c2)
 
-  var card3 = document.createElement('div')
-  card3.setAttribute('class', 'card')
+    var card3 = document.createElement('div')
+    card3.setAttribute('class', 'card')
 
-  var headerThree = document.createElement('div')
-  headerThree.setAttribute('class', 'card-header')
-  headerThree.setAttribute('id', 'head3')
+    var headerThree = document.createElement('div')
+    headerThree.setAttribute('class', 'card-header')
+    headerThree.setAttribute('id', 'head3')
 
-  var textThree = document.createElement('h5')
-  textThree.setAttribute('class', 'mb-0')
+    var textThree = document.createElement('h5')
+    textThree.setAttribute('class', 'mb-0')
 
-  var buttonThree = document.createElement('button')
-  buttonThree.setAttribute('class', 'btn btn-link')
-  buttonThree.setAttribute('type', 'button')
-  buttonThree.setAttribute('data-toggle', 'collapse')
-  buttonThree.setAttribute('data-target', '#c3')
-  buttonThree.setAttribute('aria-expanded', 'true')
-  buttonThree.setAttribute('aria-controls', 'c3')
-  buttonThree.textContent = "Events"
+    var buttonThree = document.createElement('button')
+    buttonThree.setAttribute('class', 'btn btn-link')
+    buttonThree.setAttribute('type', 'button')
+    buttonThree.setAttribute('data-toggle', 'collapse')
+    buttonThree.setAttribute('data-target', '#c3')
+    buttonThree.setAttribute('aria-expanded', 'true')
+    buttonThree.setAttribute('aria-controls', 'c3')
+    buttonThree.textContent = "Events"
 
-  var c3 = document.createElement('div')
-  c3.setAttribute('class', 'collapse')
-  c3.setAttribute('id', 'c3')
-  c3.setAttribute('aria-labelledby', 'head3')
-  c3.setAttribute('data-parent', '#resultAcc')
+    var c3 = document.createElement('div')
+    c3.setAttribute('class', 'collapse')
+    c3.setAttribute('id', 'c3')
+    c3.setAttribute('aria-labelledby', 'head3')
+    c3.setAttribute('data-parent', '#resultAcc')
 
-  var cd3 = document.createElement('div')
-  cd3.setAttribute('class', 'card-body')
+    var cd3 = document.createElement('div')
+    cd3.setAttribute('class', 'card-body')
 
-  textThree.appendChild(buttonThree)
-  headerThree.appendChild(textThree)
-  card.appendChild(headerThree)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textThree.appendChild(buttonThree)
+    headerThree.appendChild(textThree)
+    card.appendChild(headerThree)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c3.appendChild(cd3)
-  card.appendChild(c3)
+    c3.appendChild(cd3)
+    card.appendChild(c3)
 
-  var card4 = document.createElement('div')
-  card4.setAttribute('class', 'card')
+    var card4 = document.createElement('div')
+    card4.setAttribute('class', 'card')
 
-  var headerFour = document.createElement('div')
-  headerFour.setAttribute('class', 'card-header')
-  headerFour.setAttribute('id', 'head4')
+    var headerFour = document.createElement('div')
+    headerFour.setAttribute('class', 'card-header')
+    headerFour.setAttribute('id', 'head4')
 
-  var textFour = document.createElement('h5')
-  textFour.setAttribute('class', 'mb-0')
+    var textFour = document.createElement('h5')
+    textFour.setAttribute('class', 'mb-0')
 
-  var buttonFour = document.createElement('button')
-  buttonFour.setAttribute('class', 'btn btn-link')
-  buttonFour.setAttribute('type', 'button')
-  buttonFour.setAttribute('data-toggle', 'collapse')
-  buttonFour.setAttribute('data-target', '#c4')
-  buttonFour.setAttribute('aria-expanded', 'true')
-  buttonFour.setAttribute('aria-controls', 'c4')
-  buttonFour.textContent = "News"
+    var buttonFour = document.createElement('button')
+    buttonFour.setAttribute('class', 'btn btn-link')
+    buttonFour.setAttribute('type', 'button')
+    buttonFour.setAttribute('data-toggle', 'collapse')
+    buttonFour.setAttribute('data-target', '#c4')
+    buttonFour.setAttribute('aria-expanded', 'true')
+    buttonFour.setAttribute('aria-controls', 'c4')
+    buttonFour.textContent = "News"
 
-  var c4 = document.createElement('div')
-  c4.setAttribute('class', 'collapse')
-  c4.setAttribute('id', 'c4')
-  c4.setAttribute('aria-labelledby', 'head4')
-  c4.setAttribute('data-parent', '#resultAcc')
+    var c4 = document.createElement('div')
+    c4.setAttribute('class', 'collapse')
+    c4.setAttribute('id', 'c4')
+    c4.setAttribute('aria-labelledby', 'head4')
+    c4.setAttribute('data-parent', '#resultAcc')
 
-  var cd4 = document.createElement('div')
-  cd4.setAttribute('class', 'card-body')
+    var cd4 = document.createElement('div')
+    cd4.setAttribute('class', 'card-body')
 
-  textFour.appendChild(buttonFour)
-  headerFour.appendChild(textFour)
-  card.appendChild(headerFour)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textFour.appendChild(buttonFour)
+    headerFour.appendChild(textFour)
+    card.appendChild(headerFour)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c4.appendChild(cd4)
-  card.appendChild(c4)
+    c4.appendChild(cd4)
+    card.appendChild(c4)
 
-  var form = document.getElementById("stateForm")
-  var request = new XMLHttpRequest()
-  request.open('GET', 'https://developer.nps.gov/api/v1/alerts?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
-  request.onload = function(e) {
-    e.preventDefault();
-      var data = JSON.parse(this.response)
-      var total = data.total
-      if (total >= 50) {
-          total = 50
-      }
-      if (total > 0) {
-          var i = 0
-          for (i; i < total-1; i++) {
-              cd1.innerHTML += "<h1>" + data.data[i].category + ": " + data.data[i].title + "</h1>"
-              cd1.innerHTML += "<p>" + data.data[i].description +"</p>"
-              cd1.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a><hr>"
-            }
-              cd1.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-              cd1.innerHTML += "<p>" + data.data[i].listingdescription +"</p>"
-              cd1.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a>"
-            }
+    var form = document.getElementById("stateForm")
+    var request = new XMLHttpRequest()
+    request.open('GET', 'https://developer.nps.gov/api/v1/alerts?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
+    request.onload = function(e) {
+        e.preventDefault();
+        var data = JSON.parse(this.response)
+        var total = data.total
+        if (total >= 50) {
+            total = 50
         }
-        request.send()
+        if (total > 0) {
+            var i = 0
+            for (i; i < total - 1; i++) {
+                cd1.innerHTML += "<h1>" + data.data[i].category + ": " + data.data[i].title + "</h1>"
+                cd1.innerHTML += "<p>" + data.data[i].description + "</p>"
+                cd1.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a><hr>"
+            }
+            cd1.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+            cd1.innerHTML += "<p>" + data.data[i].listingdescription + "</p>"
+            cd1.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a>"
+        }
+    }
+    request.send()
     request = new XMLHttpRequest()
     request.open('GET', 'https://developer.nps.gov/api/v1/articles?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
     request.onload = function() {
@@ -1037,16 +1037,16 @@ function findInfoRequest() {
         }
         if (total > 0) {
             var i = 0
-            for (i; i < total-1; i++) {
-              cd2.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-              cd2.innerHTML += "<p>" + data.data[i].listingdescription +"</p>"
-              cd2.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a><hr>"
+            for (i; i < total - 1; i++) {
+                cd2.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+                cd2.innerHTML += "<p>" + data.data[i].listingdescription + "</p>"
+                cd2.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a><hr>"
             }
-              cd2.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-              cd2.innerHTML += "<p>" + data.data[i].listingdescription +"</p>"
-              cd2.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a>"
-            }
-          }
+            cd2.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+            cd2.innerHTML += "<p>" + data.data[i].listingdescription + "</p>"
+            cd2.innerHTML += "<a href=" + data.data[i].url + "> Click here for more information</a>"
+        }
+    }
     request.send()
     request = new XMLHttpRequest()
     request.open('GET', 'https://developer.nps.gov/api/v1/events?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
@@ -1058,26 +1058,26 @@ function findInfoRequest() {
         }
         if (total > 0) {
             var i = 0
-            for (i; i < total-1; i++) {
+            for (i; i < total - 1; i++) {
                 cd3.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-                cd3.innerHTML += "<p>Location: " + data.data[i].parkfullname +"</p><p>"
+                cd3.innerHTML += "<p>Location: " + data.data[i].parkfullname + "</p><p>"
                 for (var m = 0, z = 1; m < data.data[i].times.length; m++, z++) {
-                        cd3.innerHTML += data.data[i].times[m].timestart + "-" + data.data[i].times[m].timeend + "       "
-                        if (z % 3 == 0) {
-                            cd3.innerHTML += "<br>"
-                        }
+                    cd3.innerHTML += data.data[i].times[m].timestart + "-" + data.data[i].times[m].timeend + "       "
+                    if (z % 3 == 0) {
+                        cd3.innerHTML += "<br>"
                     }
-                    cd3.innerHTML += "</p><p>"
-              for (var m = 0, z = 1; m < data.data[i].dates.length; m++, z++) {
-                      cd3.innerHTML += data.data[i].dates[m] + "       "
-                      if (z % 3 == 0) {
-                          cd3.innerHTML += "<br>"
-                      }
-                  }
-                  cd3.innerHTML += "</p>"
                 }
-              }
+                cd3.innerHTML += "</p><p>"
+                for (var m = 0, z = 1; m < data.data[i].dates.length; m++, z++) {
+                    cd3.innerHTML += data.data[i].dates[m] + "       "
+                    if (z % 3 == 0) {
+                        cd3.innerHTML += "<br>"
+                    }
+                }
+                cd3.innerHTML += "</p>"
             }
+        }
+    }
     request.send()
     request = new XMLHttpRequest()
     request.open('GET', 'https://developer.nps.gov/api/v1/news?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
@@ -1089,163 +1089,163 @@ function findInfoRequest() {
         }
         if (total > 0) {
             var i = 0
-            for (i; i < total-1; i++) {
+            for (i; i < total - 1; i++) {
                 cd4.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-                cd4.innerHTML += "<p>" + data.data[i].releasedate +"</p>"
-                cd4.innerHTML += "<p>" + data.data[i].abstract +"</p>"
+                cd4.innerHTML += "<p>" + data.data[i].releasedate + "</p>"
+                cd4.innerHTML += "<p>" + data.data[i].abstract + "</p>"
                 cd4.innerHTML += "<a href=" + data.data[i].url + "> Click here to learn more.</a><hr>"
-              }
-                cd4.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-                cd4.innerHTML += "<p>" + data.data[i].releasedate +"</p>"
-                cd4.innerHTML += "<p>" + data.data[i].abstract +"</p>"
-                cd4.innerHTML += "<a href=" + data.data[i].url + "> Click here to learn more.</a>"
-              }
-          }
+            }
+            cd4.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+            cd4.innerHTML += "<p>" + data.data[i].releasedate + "</p>"
+            cd4.innerHTML += "<p>" + data.data[i].abstract + "</p>"
+            cd4.innerHTML += "<a href=" + data.data[i].url + "> Click here to learn more.</a>"
+        }
+    }
     request.send()
 }
 
 function learningOppRequest() {
-  var accordion = document.createElement('div')
-  accordion.setAttribute('class', 'accordion')
-  accordion.setAttribute('id', 'resultAcc')
-  accordion.setAttribute('style', 'width:80%;margin:0 auto;float:none;align:middle;padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:30px')
+    var accordion = document.createElement('div')
+    accordion.setAttribute('class', 'accordion')
+    accordion.setAttribute('id', 'resultAcc')
+    accordion.setAttribute('style', 'width:80%;margin:0 auto;float:none;align:middle;padding-top:50px;padding-left:50px;padding-right:50px;padding-bottom:30px')
 
-  var card = document.createElement('div')
-  card.setAttribute('class', 'card')
+    var card = document.createElement('div')
+    card.setAttribute('class', 'card')
 
-  var headerOne = document.createElement('div')
-  headerOne.setAttribute('class', 'card-header')
-  headerOne.setAttribute('id', 'head1')
+    var headerOne = document.createElement('div')
+    headerOne.setAttribute('class', 'card-header')
+    headerOne.setAttribute('id', 'head1')
 
-  var textOne = document.createElement('h5')
-  textOne.setAttribute('class', 'mb-0')
+    var textOne = document.createElement('h5')
+    textOne.setAttribute('class', 'mb-0')
 
-  var buttonOne = document.createElement('button')
-  buttonOne.setAttribute('class', 'btn btn-link')
-  buttonOne.setAttribute('type', 'button')
-  buttonOne.setAttribute('data-toggle', 'collapse')
-  buttonOne.setAttribute('data-target', '#c1')
-  buttonOne.setAttribute('aria-expanded', 'true')
-  buttonOne.setAttribute('aria-controls', 'c1')
-  buttonOne.textContent = "Lesson Plans"
+    var buttonOne = document.createElement('button')
+    buttonOne.setAttribute('class', 'btn btn-link')
+    buttonOne.setAttribute('type', 'button')
+    buttonOne.setAttribute('data-toggle', 'collapse')
+    buttonOne.setAttribute('data-target', '#c1')
+    buttonOne.setAttribute('aria-expanded', 'true')
+    buttonOne.setAttribute('aria-controls', 'c1')
+    buttonOne.textContent = "Lesson Plans"
 
-  var c1 = document.createElement('div')
-  c1.setAttribute('class', 'collapse')
-  c1.setAttribute('id', 'c1')
-  c1.setAttribute('aria-labelledby', 'head1')
-  c1.setAttribute('data-parent', '#resultAcc')
+    var c1 = document.createElement('div')
+    c1.setAttribute('class', 'collapse')
+    c1.setAttribute('id', 'c1')
+    c1.setAttribute('aria-labelledby', 'head1')
+    c1.setAttribute('data-parent', '#resultAcc')
 
-  var cd1 = document.createElement('div')
-  cd1.setAttribute('class', 'card-body')
+    var cd1 = document.createElement('div')
+    cd1.setAttribute('class', 'card-body')
 
-  textOne.appendChild(buttonOne)
-  headerOne.appendChild(textOne)
-  card.appendChild(headerOne)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textOne.appendChild(buttonOne)
+    headerOne.appendChild(textOne)
+    card.appendChild(headerOne)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c1.appendChild(cd1)
-  card.appendChild(c1)
+    c1.appendChild(cd1)
+    card.appendChild(c1)
 
-  var card2 = document.createElement('div')
-  card2.setAttribute('class', 'card')
+    var card2 = document.createElement('div')
+    card2.setAttribute('class', 'card')
 
-  var headerTwo = document.createElement('div')
-  headerTwo.setAttribute('class', 'card-header')
-  headerTwo.setAttribute('id', 'head2')
+    var headerTwo = document.createElement('div')
+    headerTwo.setAttribute('class', 'card-header')
+    headerTwo.setAttribute('id', 'head2')
 
-  var textTwo = document.createElement('h5')
-  textTwo.setAttribute('class', 'mb-0')
+    var textTwo = document.createElement('h5')
+    textTwo.setAttribute('class', 'mb-0')
 
-  var buttonTwo = document.createElement('button')
-  buttonTwo.setAttribute('class', 'btn btn-link')
-  buttonTwo.setAttribute('type', 'button')
-  buttonTwo.setAttribute('data-toggle', 'collapse')
-  buttonTwo.setAttribute('data-target', '#c2')
-  buttonTwo.setAttribute('aria-expanded', 'true')
-  buttonTwo.setAttribute('aria-controls', 'c2')
-  buttonTwo.textContent = "People"
+    var buttonTwo = document.createElement('button')
+    buttonTwo.setAttribute('class', 'btn btn-link')
+    buttonTwo.setAttribute('type', 'button')
+    buttonTwo.setAttribute('data-toggle', 'collapse')
+    buttonTwo.setAttribute('data-target', '#c2')
+    buttonTwo.setAttribute('aria-expanded', 'true')
+    buttonTwo.setAttribute('aria-controls', 'c2')
+    buttonTwo.textContent = "People"
 
-  var c2 = document.createElement('div')
-  c2.setAttribute('class', 'collapse')
-  c2.setAttribute('id', 'c2')
-  c2.setAttribute('aria-labelledby', 'head2')
-  c2.setAttribute('data-parent', '#resultAcc')
+    var c2 = document.createElement('div')
+    c2.setAttribute('class', 'collapse')
+    c2.setAttribute('id', 'c2')
+    c2.setAttribute('aria-labelledby', 'head2')
+    c2.setAttribute('data-parent', '#resultAcc')
 
-  var cd2 = document.createElement('div')
-  cd2.setAttribute('class', 'card-body')
+    var cd2 = document.createElement('div')
+    cd2.setAttribute('class', 'card-body')
 
-  textTwo.appendChild(buttonTwo)
-  headerTwo.appendChild(textTwo)
-  card.appendChild(headerTwo)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textTwo.appendChild(buttonTwo)
+    headerTwo.appendChild(textTwo)
+    card.appendChild(headerTwo)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c2.appendChild(cd2)
-  card.appendChild(c2)
+    c2.appendChild(cd2)
+    card.appendChild(c2)
 
-  var card3 = document.createElement('div')
-  card3.setAttribute('class', 'card')
+    var card3 = document.createElement('div')
+    card3.setAttribute('class', 'card')
 
-  var headerThree = document.createElement('div')
-  headerThree.setAttribute('class', 'card-header')
-  headerThree.setAttribute('id', 'head3')
+    var headerThree = document.createElement('div')
+    headerThree.setAttribute('class', 'card-header')
+    headerThree.setAttribute('id', 'head3')
 
-  var textThree = document.createElement('h5')
-  textThree.setAttribute('class', 'mb-0')
+    var textThree = document.createElement('h5')
+    textThree.setAttribute('class', 'mb-0')
 
-  var buttonThree = document.createElement('button')
-  buttonThree.setAttribute('class', 'btn btn-link')
-  buttonThree.setAttribute('type', 'button')
-  buttonThree.setAttribute('data-toggle', 'collapse')
-  buttonThree.setAttribute('data-target', '#c3')
-  buttonThree.setAttribute('aria-expanded', 'true')
-  buttonThree.setAttribute('aria-controls', 'c3')
-  buttonThree.textContent = "Places"
+    var buttonThree = document.createElement('button')
+    buttonThree.setAttribute('class', 'btn btn-link')
+    buttonThree.setAttribute('type', 'button')
+    buttonThree.setAttribute('data-toggle', 'collapse')
+    buttonThree.setAttribute('data-target', '#c3')
+    buttonThree.setAttribute('aria-expanded', 'true')
+    buttonThree.setAttribute('aria-controls', 'c3')
+    buttonThree.textContent = "Places"
 
-  var c3 = document.createElement('div')
-  c3.setAttribute('class', 'collapse')
-  c3.setAttribute('id', 'c3')
-  c3.setAttribute('aria-labelledby', 'head3')
-  c3.setAttribute('data-parent', '#resultAcc')
+    var c3 = document.createElement('div')
+    c3.setAttribute('class', 'collapse')
+    c3.setAttribute('id', 'c3')
+    c3.setAttribute('aria-labelledby', 'head3')
+    c3.setAttribute('data-parent', '#resultAcc')
 
-  var cd3 = document.createElement('div')
-  cd3.setAttribute('class', 'card-body')
+    var cd3 = document.createElement('div')
+    cd3.setAttribute('class', 'card-body')
 
-  textThree.appendChild(buttonThree)
-  headerThree.appendChild(textThree)
-  card.appendChild(headerThree)
-  accordion.appendChild(card)
-  body.appendChild(accordion)
+    textThree.appendChild(buttonThree)
+    headerThree.appendChild(textThree)
+    card.appendChild(headerThree)
+    accordion.appendChild(card)
+    body.appendChild(accordion)
 
-  c3.appendChild(cd3)
-  card.appendChild(c3)
+    c3.appendChild(cd3)
+    card.appendChild(c3)
 
-  var form = document.getElementById("stateForm")
-  var request = new XMLHttpRequest()
-  request.open('GET', 'https://developer.nps.gov/api/v1/lessonplans?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
-  request.onload = function(e) {
-    e.preventDefault();
-      var data = JSON.parse(this.response)
-      var total = data.total
-      if (total >= 50) {
-          total = 50
-      }
-      if (total > 0) {
-          var i = 0
-          for (i; i < total-1; i++) {
-              cd1.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-              cd1.innerHTML += "<p>Duration: " + data.data[i].duration +"</p>"
-              cd1.innerHTML += "<p>" + data.data[i].questionobjective +"</p>"
-              cd1.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
+    var form = document.getElementById("stateForm")
+    var request = new XMLHttpRequest()
+    request.open('GET', 'https://developer.nps.gov/api/v1/lessonplans?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
+    request.onload = function(e) {
+        e.preventDefault();
+        var data = JSON.parse(this.response)
+        var total = data.total
+        if (total >= 50) {
+            total = 50
+        }
+        if (total > 0) {
+            var i = 0
+            for (i; i < total - 1; i++) {
+                cd1.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+                cd1.innerHTML += "<p>Duration: " + data.data[i].duration + "</p>"
+                cd1.innerHTML += "<p>" + data.data[i].questionobjective + "</p>"
+                cd1.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
             }
             cd1.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-            cd1.innerHTML += "<p>Duration: " + data.data[i].duration +"</p>"
-            cd1.innerHTML += "<p>" + data.data[i].questionobjective +"</p>"
+            cd1.innerHTML += "<p>Duration: " + data.data[i].duration + "</p>"
+            cd1.innerHTML += "<p>" + data.data[i].questionobjective + "</p>"
             cd1.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a>"
-            }
         }
-        request.send()
+    }
+    request.send()
     request = new XMLHttpRequest()
     request.open('GET', 'https://developer.nps.gov/api/v1/people?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
     request.onload = function() {
@@ -1256,16 +1256,16 @@ function learningOppRequest() {
         }
         if (total > 0) {
             var i = 0
-            for (i; i < total-1; i++) {
-              cd2.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-              cd2.innerHTML += "<p>" + data.data[i].listingdescription +"</p>"
-              cd2.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
+            for (i; i < total - 1; i++) {
+                cd2.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+                cd2.innerHTML += "<p>" + data.data[i].listingdescription + "</p>"
+                cd2.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
             }
-              cd2.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-              cd2.innerHTML += "<p>" + data.data[i].listingdescription +"</p>"
-              cd2.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
-            }
-          }
+            cd2.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+            cd2.innerHTML += "<p>" + data.data[i].listingdescription + "</p>"
+            cd2.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
+        }
+    }
     request.send()
     request = new XMLHttpRequest()
     request.open('GET', 'https://developer.nps.gov/api/v1/places?stateCode=' + form.state.value + '&q=' + form.search.value + '&api_key=fykgrOCj9nCtRfxqGIbvFccAIjWKC8supUHA2Xk0')
@@ -1277,15 +1277,15 @@ function learningOppRequest() {
         }
         if (total > 0) {
             var i = 0
-            for (i; i < total-1; i++) {
-              cd3.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-              cd3.innerHTML += "<p>" + data.data[i].listingdescription +"</p>"
-              cd3.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
+            for (i; i < total - 1; i++) {
+                cd3.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+                cd3.innerHTML += "<p>" + data.data[i].listingdescription + "</p>"
+                cd3.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
             }
-              cd3.innerHTML += "<h1>" + data.data[i].title + "</h1>"
-              cd3.innerHTML += "<p>" + data.data[i].listingdescription +"</p>"
-              cd3.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
-            }
-          }
+            cd3.innerHTML += "<h1>" + data.data[i].title + "</h1>"
+            cd3.innerHTML += "<p>" + data.data[i].listingdescription + "</p>"
+            cd3.innerHTML += "<a href=" + data.data[i].url + ">Click here for more information</a><hr>"
+        }
+    }
     request.send()
 }
