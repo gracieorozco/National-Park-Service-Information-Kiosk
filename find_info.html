@@ -4,11 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="scripts.js" defer></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>People</title>
-    <script src="scripts.js" defer></script>
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/1/1d/US-NationalParkService-Logo.svg">
+    <link rel="icon" href="https://raw.githubusercontent.com/GSA/logo/master/nps.png">
+    <title>Find Information</title>
   </head>
-  <body style="color:black;background-color:#1C3629;background-image:url('https://lonelyplanetwpnews.imgix.net/2018/03/national-parks.jpg');background-repeat:no-repeat;background-size:100%;">
+  <body style="color:black;background-color:#18351e;background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Banff_National_Park_-_Lake_Herbert.jpg/1200px-Banff_National_Park_-_Lake_Herbert.jpg');background-repeat:no-repeat;background-size:100%;">
   <nav class="navbar navbar-expand-lg navbar-dark-lg bg-dark shadow-sm navbar-fixed-top">
       <a class="navbar-brand text-white" href="index.html">National Park Service</a>
       <button class="navbar-toggler hidden-sm-up text-white" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -16,7 +15,7 @@
   </button>
     <div class="collapse navbar-collapse" id="navbarNav">
      <ul class="navbar-nav">
-       <li class="nav-item">
+        <li class="nav-item">
          <a class="nav-link text-white" href="alerts.html">Alerts</a>
        </li>
        <li class="nav-item">
@@ -49,15 +48,15 @@
        </ul>
    </div>
 </nav>
-    <div id="body" style="height=100%">
-      <h1 style="text-align:center;text-size:50px;margin-top:1%;">People</h1>
+  <div id="body" style="height=100%">
+      <h1 style="text-align:center;text-size:50px;margin-top:1%;">Find Information</h1>
       <form style="text-align:center" id="stateForm">
         <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search" style="width:20%;margin-left:40%;"><br>
         <input class="form-control mr-sm-2" type="text" name="state" placeholder="State code" style="width:20%;margin-left:40%;"><br>
-        <input id="submit" class="btn btn-dark btn-lg btn-block" type="submit" onClick="peopleRequest()" value="Submit" style="margin-left:40%;width:20%;">
       </form>
       <br>
-    </div>
+      <input id="submit" class="btn btn-dark btn-lg btn-block" type="submit" onClick="findInfoRequest()" value="Submit" style="margin-left:40%;width:20%;">
+      </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
